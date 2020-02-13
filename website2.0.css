@@ -1,0 +1,337 @@
+/* light gold  #ffffe2
+light blue  #ddebe9  #d5e8e6  */
+
+ body,html{
+    height:100%;
+}
+
+body{
+    background-color: #220936;
+    margin: 0;
+    padding:0;
+}
+
+#intro{
+    padding: 6%;
+    height:55%;
+    background-color:#513a6e;
+  
+    font-size:24px;
+    text-align: center;
+    /* border-left: 6vw solid #1d0936;
+    border-right: 6vw solid #1d0936;
+     */
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    background-size: cover;
+}
+
+.nav{
+    background-color: #32015a;
+    height: 35px;
+    position:fixed;
+    width: 100%;
+    z-index: 5;
+    color: #f7c09c;
+    padding-top: 8px;
+    font-family: georgia;
+    opacity: .92;
+}
+
+.nav .fa{
+  margin-right: 15px;
+  float:right;
+  font-size: 20px;
+
+}
+
+.nav .fa:hover { 
+  color:#ffe3d0; 
+}
+
+
+.nav p{
+    color: #f7c09c;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/208589/pexels-photo-208589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#intro h2{
+    /* #f7c09c */
+
+    color: #630000;
+    /* font-size: 2vw; */
+    font-weight: 300;
+    letter-spacing: 0.05 em;
+    font-family: Georgia;
+    text-transform: uppercase;
+    width: 40%;
+    /* border-bottom: 1px solid #fffc9c; */
+    margin:auto;
+    font-size: 30px;
+    
+}
+
+#intro p{
+    padding-top: 2%;
+    color:  #630000;
+    /* font-size: 1vw; */
+    font-weight: 300;
+    letter-spacing: 0.100 em;
+    font-family: Georgia;
+    width:50%;
+    margin:auto;
+    font-size: 18px;
+
+
+}
+
+.name{
+    /* position: absolute; */
+    top: 35%;     
+    left:34%;
+    right:34%;
+    width: auto;
+    height:auto;
+    font-family:georgia;
+    padding: 2%;
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    /* margin:auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    /* background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    background-size: cover; */
+    border: 2px solid #630000;
+} 
+
+
+.name p{
+    font-size: 16px;
+    color: #630000;
+}
+
+.name hr{
+    border-top: 1px solid #630000;
+}
+
+#intro hr{
+  border-top: 1px solid #630000;
+}
+
+.parallax h2{
+    color: #630000;
+    font-size: 30px;
+    letter-spacing: 0.100 em;
+}
+
+.sections{
+    
+    background-color:  #220936;
+    height: 100%;   
+    margin-left:9%;
+    margin-right:9%;
+    /* border-top: 6vw solid #220936;
+    border-bottom: 6vw solid #220936; */
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    margin:5.5%;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* background-color: #220936; */
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    color: #630000;
+    border:2px outset #630000;
+    border-radius: 8px;
+  }
+
+  /* .column:nth-of-type(2){
+      margin-left: 9.7%;
+  } */
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+
+  /* @media only screen and (max-height: 400px) {
+    .nav p {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-height: 210px) {
+    .nav p {
+      font-size: 8px;
+    }
+  } */
+
+  .row section {
+           
+    /* background-color: red; */
+    border-radius: 3%;
+    border: 2px solid #630000;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 10px;
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+    background-size: cover;
+    color: #630000;
+    font-family:georgia;
+
+    /* background-color: red; */
+
+ }
+
+ .row section h1 {
+   text-align: center;
+ }
+
+
+
+.container .secondary{
+        border-radius: 8px;
+        border: 2px outset #630000; 
+        margin-top: 100px;
+        padding-left:5%;
+        background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+        background-size: cover;
+        color: #630000;
+        font-family: georgia;
+
+}
+
+.container .secondary h1{
+  text-align: center;
+}
+
+.sections-wrapper {
+  background-color: #220936;
+  height: 100%;
+}
+
+.sections-wrapper section{
+  width: 80%;
+}
+
+.secondary .skills p{
+  font-size: 20px;
+  margin:auto;
+}
+
+.skill-container {
+  margin-bottom: 40px;
+}
+
+.skill-container .level{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  height: 25px;
+}
+
+.skill-bar {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  height: 25px;
+}
+
+.python {width: 80%; background-color: #2caf12;} /* Green */
+.java {width: 80%; background-color: #2caf12;} /* Green */
+.cpp {width: 80%; background-color: #2caf12;} /* Green */
+.cprog {width: 65%; background-color: #2caf12;} /* Green */
+.js {width: 55%; background-color: #2caf12;} /* Green */
+.html {width: 60%; background-color: #2caf12;} /* Green */
+.sci {width: 25%; background-color: #a4fa5d;} /* Green */
+.bash {width: 35%; background-color: #a4fa5d;} /* Green */
+.node {width: 20%; background-color: #a4fa5d;} /* Green */
+.sql {width: 70%; background-color: #2caf12;} /* Green */
+.boot {width: 35%; background-color: #a4fa5d;} /* Green */
+
+
+@media screen and (max-width: 1000px) {
+  .sections-wrapper section {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+
+@media only screen and (max-height: 600px) {
+  #intro {
+     height: 300px;
+  }
+
+  #intro p{
+    font-size: 12px;
+  }
+
+  #intro h2{
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (max-height: 400px) {
+  .name{
+    position: absolute;
+    left: -2000px;
+    width:0;
+  }
+}
+
+
+@media only screen and (max-width: 200px) {
+  .sections-wrapper section{
+    width: 70%;
+  }
+}
