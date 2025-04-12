@@ -67,6 +67,14 @@ body{
     background-size: cover;
   }
 
+  .title::first-line {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
 #intro h2{
     /* #f7c09c */
 
