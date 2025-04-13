@@ -247,33 +247,8 @@ body{
   margin:auto;
 }
 
-.skill-container {
-  margin-bottom: 40px;
-}
-
-.skill-container .level{
-  display: flex;
-  justify-content: space-between;
-  color: gray;
-}
-
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
-
-/* Container for skill bars */
-.skill-container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-  height: 25px;
-}
-
-.skill-bar {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-  height: 25px;
-}
 
 .python {width: 80%; background-color: #2caf12;} /* Green */
 .java {width: 80%; background-color: #2caf12;} /* Green */
