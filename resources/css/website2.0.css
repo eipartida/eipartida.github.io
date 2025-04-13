@@ -225,18 +225,8 @@ body{
    text-align: center;
  }
 
-
-
-.container .secondary{
-        border-radius: 8px;
-        border: 2px outset #630000; 
-        margin-top: 100px;
-        padding-left:5%;
-        background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
-        background-size: cover;
-        color: #630000;
-        font-family: georgia;
-
+.container .secondary-section{
+  width: 100%;
 }
 
 .container .secondary h1{
