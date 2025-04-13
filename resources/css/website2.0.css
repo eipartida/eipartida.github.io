@@ -251,6 +251,10 @@ body{
   margin:auto;
 }
 
+.desc {
+  width: 100%;
+}
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
