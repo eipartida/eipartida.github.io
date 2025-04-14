@@ -254,6 +254,10 @@ body{
   width: 100%;
 }
 
+.skills .section-inner{
+  text-align: center;
+}
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
